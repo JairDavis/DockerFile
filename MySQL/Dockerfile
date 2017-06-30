@@ -1,9 +1,9 @@
 ############################################
-# version : jair/tools
+# version : jair/mysql：
 # desc : 当前版本安装的MySQL
 ############################################
 # 设置继承自我们创建的 tools 镜像
-FROM jair/tools:v2
+FROM registry.cn-hangzhou.aliyuncs.com/jair/tools
 
 # 下面是一些创建者的基本信息
 MAINTAINER jair (jair_davis@126.com)

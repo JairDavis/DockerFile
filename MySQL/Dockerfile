@@ -25,7 +25,7 @@ RUN sudo apt-get update
 RUN sudo apt-get install -y make cmake gcc g++ bison libncurses5-dev build-essential
 
 # 创建/software/downloads/mysql-5.6.22目录
-mkdir /software/downloads/mysql-5.6.22
+RUN sudo mkdir /software/downloads/mysql-5.6.22
 
 # 复制 mysql-5.6.22 文件到镜像中（mysql-5.6.22文件夹要和Dockerfile文件在同一路径）
 ADD mysql-5.6.22 /software/downloads/mysql-5.6.22
